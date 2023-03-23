@@ -1,0 +1,39 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactbankingclient-dev-233904-authRole",
+      "UnauthRoleArn": "arn:aws:iam::046428526058:role/amplify-reactbankingclient-dev-233904-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::046428526058:role/amplify-reactbankingclient-dev-233904-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-reactbankingclient-dev-233904-deployment",
+      "UnauthRoleName": "amplify-reactbankingclient-dev-233904-unauthRole",
+      "StackName": "amplify-reactbankingclient-dev-233904",
+      "StackId": "arn:aws:cloudformation:us-east-1:046428526058:stack/amplify-reactbankingclient-dev-233904/18734b40-c863-11ed-aee3-12681e1152e9",
+      "AmplifyAppId": "d31zrcopyfb6ys",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-reactbankingclient-dev-233904-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "reactbankingclient868a8dbf": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d31zrcopyfb6ys",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "transactionFunction": {
+          "deploymentBucketName": "amplify-reactbankingclient-dev-233904-deployment",
+          "s3Key": "amplify-builds/transactionFunction-554a756130706d733448-build.zip"
+        }
+      },
+      "storage": {
+        "bankingUsersDB": {}
+      },
+      "api": {
+        "reactBankingApi": {}
+      }
+    }
+  }
+}

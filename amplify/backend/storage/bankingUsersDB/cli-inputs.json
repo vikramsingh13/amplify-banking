@@ -1,0 +1,10 @@
+{
+  "resourceName": "bankingUsersDB",
+  "tableName": "users",
+  "partitionKey": {
+    "fieldName": "userID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
